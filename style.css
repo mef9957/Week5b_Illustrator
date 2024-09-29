@@ -1,0 +1,35 @@
+body {
+    background-color: #f8e1e8; /* Light pinkish background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+    max-width: 1000%;
+    height: 50%;
+    align-items: center;
+}
+
+button {
+    background-color: #fff; /* White background */
+    color: #6800bf; /* Color matching the SVG */
+    border: 2px solid #6800bf;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-items: center;
+    transform: translateX(-60px);
+}
+
+button:hover {
+    background-color: #f8e1e8; /* Light pink hover effect */
+    color: #000;
+}
